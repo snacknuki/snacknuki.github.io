@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caleb | Portfolio</title>
+  <meta name="description" content="Portfolio of Caleb - projects, skills and contact info.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#home" class="logo">Caleb</a>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Caleb Holdaway</h1>
+      <p class="tagline">I build things for the web. Replace this line with what you do.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">View my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Write 2-3 sentences about yourself: your background, what you enjoy building, and what you're looking for next.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Short description of what it does and the problem it solves.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="links">
+            <a href="https://github.com/YOUR-USERNAME/project-one">Code</a>
+            <a href="https://YOUR-USERNAME.github.io/project-one">Live</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Short description of what it does and the problem it solves.</p>
+          <ul class="tags"><li>Python</li><li>Flask</li></ul>
+          <div class="links">
+            <a href="https://github.com/YOUR-USERNAME/project-two">Code</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Short description of what it does and the problem it solves.</p>
+          <ul class="tags"><li>React</li><li>Node</li></ul>
+          <div class="links">
+            <a href="https://github.com/YOUR-USERNAME/project-three">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="tags big">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>Git</li><li>SQL</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to work together? <a href="mailto:cdholdaway@gmail.com">cdholdaway@gmail.com</a></p>
+      <p>
+        <a href="https://github.com/YOUR-USERNAME">GitHub</a> ·
+        <a href="https://linkedin.com/in/YOUR-USERNAME">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Caleb Holdaway</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
